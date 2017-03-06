@@ -73,6 +73,13 @@
         orderId: '0987654'
       });
     }
+    function myClick8() {
+      obApi('track', 'Decimal Number', {
+        orderValue: 28.95,
+        currency: 'BRL',
+        orderId: '098744654'
+      });
+    }
   </script>
 </head>
 <body>
@@ -88,6 +95,7 @@
   <button onclick="myClick5()">invalid currency</button>
   <button onclick="myClick6()">invalid value</button>
   <button onclick="myClick7()">negative number</button>
+  <button onclick="myClick8()">decimal number</button>
 </div>
 
 </body>
