@@ -64,3 +64,4 @@ Writing a blog post
 Blogging is very easy with Jekyll. Simply add a new Markdown file to the `_posts` folder following the file name convention: `YEAR-MONTH-DAY-title.md`
 
 Make sure to not include special characters in the file name. The blog entry's publishing date is automatically extracted from the file name.
+nurit
