@@ -38,7 +38,7 @@
     }
     function myClick2() {
       obApi('track', 'Event with Params', {
-        value: 10,
+        orderValue: 10,
         currency: 'USD',
         orderId: '123456'
       });
@@ -48,27 +48,27 @@
     }
     function myClick4() {
       obApi('track', 'No Currency', {
-        value: 10,
+        orderValue: 10,
         orderId: '1234567'
       });
     }
     function myClick5() {
       obApi('track', 'Invalid Currency', {
-        value: 10,
+        orderValue: 10,
         currency: 'CNY',
         orderId: '250485'
       });
     }
     function myClick6() {
       obApi('track', 'Invalid Value', {
-        value: 'ng',
+        orderValue: 'ng',
         currency: 'ILS',
         orderId: '09876'
       });
     }
     function myClick7() {
       obApi('track', 'Negative Number', {
-        value: -19,
+        orderValue: -19,
         currency: 'BRL',
         orderId: '0987654'
       });
